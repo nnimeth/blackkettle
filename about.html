@@ -4,34 +4,78 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	
+ <style>
+
+
+ 	#gallery {
+ 		float: left;
+ 		
+ 		
+ 		height:1000px;
+ 	}
+
+ 	#about{
+ 		float: right;
+ 		border: 1px solid;
+ 		width:730px;
+ 		height:1000px;
+ 	}
+
+ 	figure {
+
+ 		display: block;
+ 		width:200px;
+ 		height:200px;
+ 		margin:0px;
+ 		padding:3px;
+ 	}
+
+ </style>
+
 </head>
 
 
 <body>
 
-	<nav>
-		<ul>
+	<div class="container">
 
-			<li>
 
-				<a href="index.html">Home</a>
+		<nav>
+			<ul>
+
+				<li>
+
+					<a href="index.html">Home</a>
 		
-			</li>
+				</li>
 			
-			<li>
+				<li>
 
-				<a href="about.html">About</a>
+					<a href="about.html">About</a>
 
-			</li>
+				</li>
 
-			<li>
+				<li>
 
-				<a href="menu.html">Menu</a>
+					<a href="menu.html">Menu</a>
 
-			</li>	
+				</li>	
 
-		</ul>
-	</nav>	
+			</ul>
+		</nav>	
+
+	</div>	
+
+	<div id="gallery"> 
+
+		<figure> <img src="images/about-pic1.jpg" style= "width:200px; height: 200px " /></figure>
+		<figure> <img src="images/about-pic2.jpg" style= "width:200px; height: 200px "/></figure>
+		<figure> <img src="images/about-pic3.jpg" style= "width:200px; height: 200px "/></figure>
+
+
+	</div>
+	<div id="about"> about info goes here</div>
 
 </body>
 </html>
